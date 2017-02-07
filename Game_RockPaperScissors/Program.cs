@@ -25,7 +25,6 @@ namespace Game_RockPaperScissors
 				string user_B_Input = ReadPassword(); //get user B input (hidden text by using def. ReadPassword instead "Console.ReadLine()")
 				int b = int.Parse(user_B_Input);
 
-
 				play.SetUserA_val(a);
 				play.SetUserB_val(b);
 				play.StartGame();
