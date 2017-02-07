@@ -17,8 +17,6 @@ namespace Game_RockPaperScissors
 			play.SetUserB(participant_b);
 			for (int i = 1; i < 10; i++) //it will be 10 games
 			{
-				//Random rnd = new Random();
-				//int b = rnd.Next(1, 4); //random number generater by computer
 				Console.WriteLine(participant_a + ": Enter 1 for paper, 2 for rock, 3 for scissors");
 				string user_A_Input = ReadPassword(); //get user A input (hidden text by using def. ReadPassword instead "Console.ReadLine()")
 				int a = int.Parse(user_A_Input);
